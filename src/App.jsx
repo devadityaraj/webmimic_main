@@ -345,10 +345,10 @@ function App() {
         <h3 className="tier-title">Sponsored By</h3>
         <div className="sponsor-logos">
           <div className="sponsor-logo animate-on-scroll">
-            <img src="./public/pw.jpg" alt="Sponsor Logo 1" />
+            <img src="images/pw.jpg" alt="Sponsor Logo 1" />
           </div>
           <div className="sponsor-logo animate-on-scroll">
-            <img src="./public/council.png" alt="Sponsor Logo 2" />
+            <img src="images/council.png" alt="Sponsor Logo 2" />
           </div>
         </div>
       </div>
