@@ -42,7 +42,7 @@ body {
   overflow-x: block;
   min-height: 100vh;
   width: 100%;
-  background-image: url('images/enthiran_white.png');
+  background-image: url('/enthiran_white.png');
   background-size: 200px 400px; /* Add your PNG image URL here */
   background-size: cover; /* Make the image cover the entire viewport */
   background-position: center; /* Center the background image */
@@ -157,7 +157,7 @@ button:focus-visible {
   width: 180px;
   height: 60px;
   margin-top: 20px;
-  background-image: url("images/enthiran_white.png");
+  background-image: url("/enthiran_white.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -708,27 +708,27 @@ button:focus-visible {
 
 .headphone-logo {
   background-color: #61dafb;
-  mask: url("images/headphones.png") center/contain no-repeat;
+  mask: url("/headphones.png") center/contain no-repeat;
 }
 
 .neck-logo {
   background-color: #42b883;
-  mask: url("images/neckband.png") center/contain no-repeat;
+  mask: url("/neckband.png") center/contain no-repeat;
 }
 
 .spk-logo {
   background-color: #ff3e00;
-  mask: url("images/speaker.png") center/contain no-repeat;
+  mask: url("/speaker.png") center/contain no-repeat;
 }
 
 .mouse-logo {
   background-color: #673ab8;
-  mask: url("images/mouse.png") center/contain no-repeat;
+  mask: url("/mouse.png") center/contain no-repeat;
 }
 
 .certi-logo {
   background-color: #324fff;
-  mask: url("images/certificate.png") center/contain no-repeat;
+  mask: url("/certificate.png") center/contain no-repeat;
 }
 
 
@@ -826,7 +826,7 @@ button:focus-visible {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-image: url('images/siddharthmishra.png'); 
+  background-image: url('/siddharthmishra.png'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -836,7 +836,7 @@ button:focus-visible {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-image: url('images/adityaraj.png'); 
+  background-image: url('/adityaraj.png'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
