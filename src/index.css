@@ -906,6 +906,96 @@ button:focus-visible {
   margin-top: 32px;
 }
 
+/* our team css */
+.gradient-title{
+  background: linear-gradient(145deg, #16c0d2 10%, #cb47ff 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.our-team-section{
+  padding: 80px 0;
+  background-color:  #0f0e17;
+  position: relative;
+  width: 100%;
+}
+
+.our-team-box{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+
+.head{
+  margin-top: 1rem;
+  margin-bottom:1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.head_1{
+  width: 35vw;
+  padding: 10px;
+  border-radius: 1rem;
+  background-color:rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head_1_profile{
+  display: inline-block;
+  border-radius: 50%;
+  background-image:url("/sample-profile-photo.png");
+  background-size: cover;
+  height: 8rem;
+  width: 8rem;
+}
+
+.head_2{
+  width: 35vw;
+  padding: 10px;
+  border-radius: 1rem;
+  background-color:rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head_2_profile{
+  display: inline-block;
+  border-radius: 50%;
+  background-image:url("/sample-profile-photo.png");
+  background-size: cover;
+  height: 8rem;
+  width: 8rem;
+}
+
+.team{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.techy{
+  padding: 10px;
+  border-radius: 1rem;
+  background-color:rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* end */
+
 .footer {
   margin-top: auto;
   background-color: #0f0e17;
@@ -1048,5 +1138,17 @@ button:focus-visible {
   .enthiran-logo-bg-large {
     width: 200px;
     height: 300px;
+  }
+
+  .head_1{
+     width: 40vw;
+  }
+
+  .head_2{
+    width: 40vw;
+ }
+
+  .team{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
