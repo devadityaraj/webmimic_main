@@ -547,15 +547,15 @@ button:focus-visible {
 @keyframes floatLine {
   0% {
     transform: translateY(0) rotate(0deg);
-    opacity: 0.7;
+    opacity: 0.5;
   }
   50% {
     transform: translateY(-50px) rotate(2deg);
-    opacity: 1;
+    opacity: 0.7;
   }
   100% {
     transform: translateY(0) rotate(0deg);
-    opacity: 0.7;
+    opacity: 0.5;
   }
 }
 
@@ -954,11 +954,7 @@ button:focus-visible {
 .head_1_profile{
   display: inline-block;
   border-radius: 50%;
-<<<<<<< HEAD
-  background-image:url("/sample-profile-photo.png");
-=======
   background-image:url("/siddharthmishra.png");
->>>>>>> c0622ce (Update_2)
   background-size: cover;
   height: 8rem;
   width: 8rem;
@@ -977,11 +973,7 @@ button:focus-visible {
 .head_2_profile{
   display: inline-block;
   border-radius: 50%;
-<<<<<<< HEAD
-  background-image:url("/sample-profile-photo.png");
-=======
   background-image:url("/sariya.png");
->>>>>>> c0622ce (Update_2)
   background-size: cover;
   height: 8rem;
   width: 8rem;

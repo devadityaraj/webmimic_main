@@ -27,27 +27,17 @@ function App() {
   const sponsorsRef = useRef(null)
 
   const techTeam = [
-<<<<<<< HEAD
-      { id:"1", pf:"/sample-profile-photo.png",name:"nam1" },
-      { id:"2", pf:"/sample-profile-photo.png",name:"nam2" },
-      { id:"3", pf:"/sample-profile-photo.png",name:"nam3" },
-=======
       { id:"1", pf:"/adityaraj.png",name:"Aditya Raj" },
       { id:"2", pf:"/arch.png",name:"Archit Chikara" },
       { id:"3", pf:"/ranj.png",name:"Ranjeesh Kumar" },
->>>>>>> c0622ce (Update_2)
       { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
       { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
       { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
   ]
 
   const creativeTeam = [
-    { id:"1", pf:"/sample-profile-photo.png",name:"nam1" },
-<<<<<<< HEAD
+    { id:"1", pf:"/aishwarya.png",name:"Aishwarya Singh" },
     { id:"2", pf:"/sample-profile-photo.png",name:"nam2" },
-=======
-    { id:"2", pf:"/aishwarya.png",name:"Aishwarya Singh" },
->>>>>>> c0622ce (Update_2)
     { id:"3", pf:"/sample-profile-photo.png",name:"nam3" },
     { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
     { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
@@ -425,11 +415,7 @@ const managmentTeam = [
        
       </span>
       <span>
-<<<<<<< HEAD
-        <h2>SARIYA ZEHERA</h2>
-=======
         <h2>SHARIYA ZEHRA</h2>
->>>>>>> c0622ce (Update_2)
       </span> 
       </div>
       
