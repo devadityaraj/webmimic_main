@@ -14,7 +14,7 @@ import {
   Contact,
 } from "lucide-react"
 
-import "./index.css";
+import "./index.css"; 
 
 function App() {
   const [searchActive, setSearchActive] = useState(false)
