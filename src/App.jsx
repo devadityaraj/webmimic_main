@@ -26,6 +26,33 @@ function App() {
   const communityRef = useRef(null)
   const sponsorsRef = useRef(null)
 
+  const techTeam = [
+      { id:"1", pf:"/sample-profile-photo.png",name:"nam1" },
+      { id:"2", pf:"/sample-profile-photo.png",name:"nam2" },
+      { id:"3", pf:"/sample-profile-photo.png",name:"nam3" },
+      { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
+      { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
+      { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
+  ]
+
+  const creativeTeam = [
+    { id:"1", pf:"/sample-profile-photo.png",name:"nam1" },
+    { id:"2", pf:"/sample-profile-photo.png",name:"nam2" },
+    { id:"3", pf:"/sample-profile-photo.png",name:"nam3" },
+    { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
+    { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
+    { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
+]
+
+const managmentTeam = [
+  { id:"1", pf:"/sample-profile-photo.png",name:"nam1" },
+  { id:"2", pf:"/sample-profile-photo.png",name:"nam2" },
+  { id:"3", pf:"/sample-profile-photo.png",name:"nam3" },
+  { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
+  { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
+  { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
+]
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10)
@@ -361,6 +388,118 @@ function App() {
       </a>
     </div>
   </div>
+</section>
+
+        {/* Our Team */}
+<section className="our-team-section" id="our-team">
+  <div className="container">
+    <div className="our-team-box">
+      <h2>Our <span className="gradient-text">Team</span></h2>
+    </div>
+    <div className="team-head">
+  
+    <h2 className="gradient-title">Team Heads</h2>
+   
+
+    <div className="head">
+    <div className="head_1 ">
+    <span className="head_1_profile">
+
+    </span>
+    <span>
+      <h2>SIDDHARTH MISHRA</h2>
+    </span>
+    </div>
+    <div className="head_2">
+      <span className="head_2_profile">
+       
+      </span>
+      <span>
+        <h2>SARIYA ZEHERA</h2>
+      </span> 
+      </div>
+      
+    </div>
+  </div>
+  <div className=" ">
+  <h2 className="gradient-title">Technical Team</h2>
+  <div className=" team">
+  {techTeam.map((member)=>(
+      <div className="techy" key={member.id}>
+
+        <span className="member_profile"  style={{
+          display:"inline-block",
+        width: "8rem",
+        height: "8rem",
+        backgroundImage: `url("${member.pf}")`,
+        borderRadius:"50%",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}>
+             
+        </span>
+
+      <span>
+        <h2>{member.name}</h2>
+      </span>
+      </div>
+    ))}
+  </div>
+      </div>
+
+  <div className=" ">
+  <h2 className="gradient-title">Creative Team</h2>
+  <div className=" team">
+  {creativeTeam.map((member)=>(
+      <div className="techy" key={member.id}>
+
+        <span className="member_profile"  style={{
+          display:"inline-block",
+        width: "8rem",
+        height: "8rem",
+        backgroundImage: `url("${member.pf}")`,
+        borderRadius:"50%",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}>
+             
+        </span>
+
+      <span>
+        <h2>{member.name}</h2>
+      </span>
+      </div>
+    ))}
+  </div>
+  </div>
+
+  <div className=" ">
+  <h2 className="gradient-title">Managment Team</h2>
+  <div className=" team">
+  {managmentTeam.map((member)=>(
+      <div className="techy" key={member.id}>
+
+        <span className="member_profile"  style={{
+          display:"inline-block",
+        width: "8rem",
+        height: "8rem",
+        backgroundImage: `url("${member.pf}")`,
+        borderRadius:"50%",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}>
+             
+        </span>
+
+      <span>
+        <h2>{member.name}</h2>
+      </span>
+      </div>
+    ))}
+  </div>
+      </div>  
+      
+    </div>
 </section>
 
       </main>
