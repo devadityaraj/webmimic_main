@@ -29,15 +29,15 @@ function App() {
   const techTeam = [
       { id:"1", pf:"/adityaraj.png",name:"Aditya Raj" },
       { id:"2", pf:"/arch.png",name:"Archit Chikara" },
-      { id:"3", pf:"/ranj.png",name:"Ranjeesh Kumar" },
+      { id:"3", pf:"/ranj.png",name:"Ranjeesh Pandey" },
       { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
       { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
       { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
   ]
 
   const creativeTeam = [
-    { id:"1", pf:"/aishwarya.png",name:"Aishwarya Singh" },
-    { id:"2", pf:"/sample-profile-photo.png",name:"nam2" },
+    { id:"1", pf:"/sample-profile-photo.png",name:"Om Kant Tyagi" },
+    { id:"2", pf:"/aishwarya.png",name:"Aishwarya Singh" },
     { id:"3", pf:"/sample-profile-photo.png",name:"nam3" },
     { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
     { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
