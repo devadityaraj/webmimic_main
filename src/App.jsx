@@ -125,13 +125,13 @@ const managmentTeam = [
           </button>
 
           <nav className={`navbar-nav ${mobileMenuOpen ? "mobile-open" : ""}`}>
-            <a href="#features" className="nav-link">
-              Map
+            <a href="https://maps.app.goo.gl/7xVqdz3juV9jGCdr5" className="nav-link">
+              Location
             </a>
             <a href="#ecosystem" className="nav-link">
               Registrations
             </a>
-            <a href="#community" className="nav-link">
+            <a href="#prizes_" className="nav-link">
               Prizes
             </a>
             <div className="dropdown">
@@ -139,9 +139,9 @@ const managmentTeam = [
                 Our Team <ChevronDown size={16} />
               </button>
               <div className="dropdown-content">
-                <a href="#">Technical</a>
-                <a href="#">Creative</a>
-                <a href="#">Management</a>
+                <a href="#technicalteam">Technical</a>
+                <a href="#creativeteam">Creative</a>
+                <a href="#managementteam">Management</a>
               </div>
             </div>
             
@@ -258,7 +258,7 @@ const managmentTeam = [
         </section>
 
         {/* Ecosystem Section */}
-        <section id="ecosystem" className="ecosystem-section" ref={ecosystemRef}>
+        <section id="prizes_" className="ecosystem-section" ref={ecosystemRef}>
           <div className="container">
             <h2 className="section-title animate-on-scroll">
               Exiting <span className="gradient-text">Rewards</span>
@@ -421,6 +421,7 @@ const managmentTeam = [
       
     </div>
   </div>
+  <section id="technicalteam">
   <div className=" ">
   <h2 className="gradient-title">Technical Team</h2>
   <div className=" team">
@@ -446,7 +447,9 @@ const managmentTeam = [
     ))}
   </div>
       </div>
+      </section>
 
+ <section id="creativeteam">
   <div className=" ">
   <h2 className="gradient-title">Creative Team</h2>
   <div className=" team">
@@ -472,7 +475,9 @@ const managmentTeam = [
     ))}
   </div>
   </div>
+  </section>
 
+<section id="managementteam">
   <div className=" ">
   <h2 className="gradient-title">Managment Team</h2>
   <div className=" team">
@@ -498,6 +503,7 @@ const managmentTeam = [
     ))}
   </div>
       </div>  
+      </section>
       
     </div>
 </section>

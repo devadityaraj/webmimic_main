@@ -1151,4 +1151,14 @@ button:focus-visible {
   .team{
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+
+  .tteam{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .cteam{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .mteam{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
 }
