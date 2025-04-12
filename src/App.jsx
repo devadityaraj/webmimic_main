@@ -28,8 +28,8 @@ function App() {
 
   const techTeam = [
       { id:"1", pf:"/adityaraj.png",name:"Aditya Raj" },
-      { id:"2", pf:"/arch.png",name:"Archit Chikara" },
-      { id:"3", pf:"/ranj.png",name:"Ranjeesh Pandey" },
+      { id:"2", pf:"/ranj.png",name:"Ranjeesh Pandey" },
+      { id:"3", pf:"/arch.png",name:"Archit Chikara" },
       { id:"4", pf:"/deepak.png",name:"Deepak Manral" },
       { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
       { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
