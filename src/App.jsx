@@ -36,7 +36,7 @@ function App() {
   ]
 
   const creativeTeam = [
-    { id:"1", pf:"/sample-profile-photo.png",name:"Om Kant Tyagi" },
+    { id:"1", pf:"/omtyagi.png",name:"Om Tyagi" },
     { id:"2", pf:"/aishwarya.png",name:"Aishwarya Singh" },
     { id:"3", pf:"/riyat.png",name:"Riya Tyagi" },
     { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
