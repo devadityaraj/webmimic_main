@@ -31,17 +31,17 @@ function App() {
       { id:"2", pf:"/ranj.png",name:"Ranjeesh Pandey" },
       { id:"3", pf:"/arch.png",name:"Archit Chikara" },
       { id:"4", pf:"/deepak.png",name:"Deepak Manral" },
-      { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
-      { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
+     // { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
+    //  { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
   ]
 
   const creativeTeam = [
     { id:"1", pf:"/omtyagi.png",name:"Om Tyagi" },
     { id:"2", pf:"/aishwarya.png",name:"Aishwarya Singh" },
     { id:"3", pf:"/riyat.png",name:"Riya Tyagi" },
-    { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
-    { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
-    { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
+    { id:"4", pf:"/anushka.png",name:"Anushka Sharma" },
+  //  { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
+   // { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
 ]
 
 const managmentTeam = [
