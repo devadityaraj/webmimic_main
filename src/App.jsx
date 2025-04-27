@@ -2,14 +2,12 @@
 
 import { useState, useEffect, useRef } from "react"
 import {
-  Search,
   ChevronDown,
   Code,
   Zap,
   Globe,
   Package,
   Heart,
-  ArrowRight,
   Instagram,
   Contact,
 } from "lucide-react"
@@ -29,10 +27,7 @@ function App() {
   const techTeam = [
       { id:"1", pf:"/adityaraj.png",name:"Aditya Raj" },
       { id:"2", pf:"/ranj.png",name:"Ranjeesh Pandey" },
-      { id:"3", pf:"/arch.png",name:"Archit Chikara" },
-      { id:"4", pf:"/deepak.png",name:"Deepak Manral" },
-     // { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
-    //  { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
+      { id:"3", pf:"/deepak.png",name:"Deepak Manral" },
   ]
 
   const creativeTeam = [
@@ -45,12 +40,14 @@ function App() {
 ]
 
 const managmentTeam = [
-  { id:"1", pf:"/sample-profile-photo.png",name:"nam1" },
-  { id:"2", pf:"/sample-profile-photo.png",name:"nam2" },
-  { id:"3", pf:"/sample-profile-photo.png",name:"nam3" },
-  { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
-  { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
-  { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
+  { id:"1", pf:"/kp.png",name:"Kartikey Pandey" },
+  { id:"2", pf:"/ravi.png",name:"Ravi Mishra" },
+  { id:"3", pf:"/shivam.png",name:"Shivam Kasaudhan" },
+  { id:"4", pf:"/rka.png",name:"Rajesh Attri" },
+ // { id:"5", pf:"/shivam.png",name:"Shivam Kasaudhan" },
+ // { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
+ // { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
+ // { id:"6", pf:"/sample-profile-photo.png",name:"nam6" },
 ]
 
   useEffect(() => {
