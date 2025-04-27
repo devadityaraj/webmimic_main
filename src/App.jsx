@@ -44,6 +44,7 @@ const managmentTeam = [
   { id:"2", pf:"/ravi.png",name:"Ravi Mishra" },
   { id:"3", pf:"/shivam.png",name:"Shivam Kasaudhan" },
   { id:"4", pf:"/rka.png",name:"Rajesh Attri" },
+  { id:"5", pf:"/aryan.png",name:"Aaryan Verma" },
  // { id:"5", pf:"/shivam.png",name:"Shivam Kasaudhan" },
  // { id:"4", pf:"/sample-profile-photo.png",name:"nam4" },
  // { id:"5", pf:"/sample-profile-photo.png",name:"nam5" },
