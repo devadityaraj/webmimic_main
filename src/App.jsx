@@ -126,7 +126,7 @@ const managmentTeam = [
             <a href="https://maps.app.goo.gl/7xVqdz3juV9jGCdr5" className="nav-link">
               Location
             </a>
-            <a href="#ecosystem" className="nav-link">
+            <a href="https://forms.gle/Mn1rVEd983uZs6WT7" className="nav-link">
               Registrations
             </a>
             <a href="#prizes_" className="nav-link">
@@ -176,7 +176,7 @@ const managmentTeam = [
           </p>
 
           <div className="hero-buttons animate-on-scroll">
-            <a href="https://forms.gle/K6a6VoHBshASNyHX8" className="btn btn-primary">
+            <a href="https://forms.gle/Mn1rVEd983uZs6WT7" className="btn btn-primary">
               Registrations
             </a>
             <a href="https://wa.me/919450579493" className="btn btn-secondary">
@@ -341,7 +341,7 @@ const managmentTeam = [
               </div>
 
               <div className="testimonial-card animate-on-scroll">
-                <p>"Team Enthiran gives me more learning exprience and oppourtinuties in the college" </p>
+                <p>"As the co-ordinator in the Team Enthiran, I " </p>
                      <div className="testimonial-author">
                   <div className="author-avatar2">
                   </div>
@@ -380,7 +380,7 @@ const managmentTeam = [
     </div>
 
     <div className="become-sponsor animate-on-scroll">
-      <a href="https://forms.gle/Qgezbx7Ba6kuGn2w8" className="btn btn-primary">
+      <a href="https://forms.gle/Mn1rVEd983uZs6WT7" className="btn btn-primary">
         <Heart size={16} />
         Become a Sponsor
       </a>
