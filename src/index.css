@@ -708,7 +708,7 @@ button:focus-visible {
 
 .headphone-logo {
   background-color: #61dafb;
-  mask: url("/headphones.png") center/contain no-repeat;
+  mask: url("/cash.png") center/contain no-repeat;
 }
 
 .neck-logo {

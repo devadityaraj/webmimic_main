@@ -259,31 +259,16 @@ const managmentTeam = [
         <section id="prizes_" className="ecosystem-section" ref={ecosystemRef}>
           <div className="container">
             <h2 className="section-title animate-on-scroll">
-              Exiting <span className="gradient-text">Rewards</span>
+              Cash <span className="gradient-text">Rewards</span>
             </h2>
             <p className="section-description animate-on-scroll">
-              Prize pool worth upto Rs.5000
+              Prize pool upto Rs.5000
             </p>
 
             <div className="frameworks-grid">
               <div className="framework-card animate-on-scroll">
                 <div className="framework-logo headphone-logo"></div>
-                <h3>Headphones</h3>
-              </div>
-
-              <div className="framework-card animate-on-scroll">
-                <div className="framework-logo neck-logo"></div>
-                <h3>Neck Band</h3>
-              </div>
-
-              <div className="framework-card animate-on-scroll">
-                <div className="framework-logo spk-logo"></div>
-                <h3>Speakers</h3>
-              </div>
-
-              <div className="framework-card animate-on-scroll">
-                <div className="framework-logo mouse-logo"></div>
-                <h3>Gaming Mouse</h3>
+                <h3>Cash</h3>
               </div>
 
               <div className="framework-card animate-on-scroll">
@@ -362,7 +347,7 @@ const managmentTeam = [
       Our <span className="gradient-text">Sponsors</span>
     </h2>
     <p className="section-description animate-on-scroll">
-      We are proudly sponsored by Physics Wallah and Student Council GCET.
+      We are proudly sponsored by GCET and Student Council GCET.
     </p>
 
     <div className="sponsors-grid">
@@ -370,7 +355,7 @@ const managmentTeam = [
         <h3 className="tier-title">Sponsored By</h3>
         <div className="sponsor-logos">
           <div className="sponsor-logo animate-on-scroll">
-            <img src="/pw.jpg" alt="Sponsor Logo 1" />
+            <img src="/GCET.png" alt="Sponsor Logo 1" />
           </div>
           <div className="sponsor-logo animate-on-scroll">
             <img src="/council.png" alt="Sponsor Logo 2" />
