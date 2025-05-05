@@ -26,8 +26,9 @@ function App() {
 
   const techTeam = [
       { id:"1", pf:"/adityaraj.png",name:"Aditya Raj" },
-      { id:"2", pf:"/ranj.png",name:"Ranjeesh Pandey" },
-      { id:"3", pf:"/deepak.png",name:"Deepak Manral" },
+      { id:"2", pf:"/deepak.png",name:"Deepak Manral" },
+      { id:"3", pf:"/ranj.png",name:"Ranjeesh Pandey" },
+      
   ]
 
   const creativeTeam = [
@@ -326,7 +327,7 @@ const managmentTeam = [
               </div>
 
               <div className="testimonial-card animate-on-scroll">
-                <p>"As the co-ordinator in the Team Enthiran, I " </p>
+                <p>"We are the host of the Technical Events in Galgotias! " </p>
                      <div className="testimonial-author">
                   <div className="author-avatar2">
                   </div>
@@ -347,7 +348,7 @@ const managmentTeam = [
       Our <span className="gradient-text">Sponsors</span>
     </h2>
     <p className="section-description animate-on-scroll">
-      We are proudly sponsored by GCET and Student Council GCET.
+      We are proudly sponsored by UnStop and Student Council GCET.
     </p>
 
     <div className="sponsors-grid">
@@ -355,7 +356,7 @@ const managmentTeam = [
         <h3 className="tier-title">Sponsored By</h3>
         <div className="sponsor-logos">
           <div className="sponsor-logo animate-on-scroll">
-            <img src="/GCET.png" alt="Sponsor Logo 1" />
+            <img src="/unstop.jpg" alt="Sponsor Logo 1" />
           </div>
           <div className="sponsor-logo animate-on-scroll">
             <img src="/council.png" alt="Sponsor Logo 2" />
