@@ -28,7 +28,6 @@ function App() {
       { id:"1", pf:"/adityaraj.png",name:"Aditya Raj" },
       { id:"2", pf:"/deepak.png",name:"Deepak Manral" },
       { id:"3", pf:"/ranj.png",name:"Ranjeesh Pandey" },
-      
   ]
 
   const creativeTeam = [
